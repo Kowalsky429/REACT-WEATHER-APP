@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+
+::placeholder {
+	text-align: center;
+	color: #fff !important;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.white__gradient {
+	background: #b300ff;
+	filter: blur(200px);
+}
